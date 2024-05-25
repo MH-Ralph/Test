@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+body > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.btn {
+  padding: 10px 15px;
+  cursor: pointer;
+  background-color: aqua;
+  color: black;
+  font-weight: bold;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  opacity: 1;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.btn:hover {
+  opacity: 0.5;
+}
+
+.btn + .btn {
+  margin-left: 10px;
+}
